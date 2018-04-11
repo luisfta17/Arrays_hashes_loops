@@ -60,6 +60,18 @@ erikslottery =users["Erik"][:lottery_numbers]
 p erikslottery.min
 
 p avrilslottery =users["Avril"][:lottery_numbers].select { |num|  num.even?  }
+#longestway
+# avrilsArray = [12, 14, 33, 38, 9, 25]
+# def even_array(array)
+#   lottery_array = []
+# for numbers in array
+#   if numbers%2 == 0
+#     lottery_array.push(numbers)
+#   end
+# end
+# return lottery_array
+# end
+# p even_array(avrilsArray)
 users["Erik"][:lottery_numbers].push(7)
 p users["Erik"][:lottery_numbers]
 users["Erik"][:home_town]= "Edinburgh"

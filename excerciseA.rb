@@ -4,6 +4,7 @@ stops.push("Edinburgh Waverley")
 stops.unshift("Glasgow Queen St")
 stops.insert(4, "Polmont")
 p stops.index("Livingston")
+stops.delete("Livingston")
 p stops
 p "we have #{stops.length} stops"
 p stops.select { |a| a == "Falkirk High" }
