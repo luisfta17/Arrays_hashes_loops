@@ -95,3 +95,14 @@ users["Luis"]= {
 }
 
 p users
+
+# Get Jonathan's Twitter handle (i.e. the string "jonnyt")
+# Get Erik's hometown
+# Get the array of Erik's lottery numbers
+# Get the type of Avril's pet Monty
+# Get the smallest of Erik's lottery numbers
+# Return an array of Avril's lottery numbers that are even
+# Erik is one lottery number short! Add the number 7 to be included in his lottery numbers
+# Change Erik's hometown to Edinburgh
+# Add a pet dog to Erik called "Fluffy"
+# Add another person to the users hash
