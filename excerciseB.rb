@@ -86,6 +86,13 @@ p avrilslottery =users["Avril"][:lottery_numbers].select { |num|  num.even?  }
 # end
 # p even_array(users["Avril"][:lottery_numbers])
 
+#opcion C
+# result = []
+# for number in users["Avril"][:lottery_numbers]
+#   result.push(number) if (number.even?)
+# end
+# p result
+
 # Erik is one lottery number short! Add the number 7 to be included in his lottery numbers
 users["Erik"][:lottery_numbers].push(7)
 p users["Erik"][:lottery_numbers]
