@@ -18,6 +18,7 @@ p "we have #{stops.length} stops"
 # How many ways can we return "Falkirk High" from the array?
 p stops.select { |a| a == "Falkirk High" }
 p stops[2]
+p stops.at(2)
 # Reverse the positions of the stops in the array
 p stops.reverse
 # Print out all the stops using a for loop
